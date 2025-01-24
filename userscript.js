@@ -174,13 +174,13 @@ const main = {
     const listboxes = claim(type.nodeList, await pollingSelectorAll(document, '[role=listbox]', 4));
     qw(listboxes)
     let usedListboxes = [], listItem = null;
-    listItem = clickAndReturnListItem('араганда');
+    listItem = clickAndReturnListItem('РФ 2');
     await tools.pause(500);
     //await until(() => listItem.getAttribute('aria-selected') === 'true', 100);
-    listItem = clickAndReturnListItem('араганда');
+    listItem = clickAndReturnListItem('РФ 2');
     await tools.pause(500);
     //await until(() => listItem.getAttribute('aria-selected') === 'true', 100);
-    listItem = clickAndReturnListItem('hh.кz отклики');
+    listItem = clickAndReturnListItem('hh.ru отклики');
     await tools.pause(1000);
     //await until(() => listItem.getAttribute('aria-selected') === 'true', 100);
     clickAndReturnListItem('оператор');

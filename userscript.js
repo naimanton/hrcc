@@ -4,8 +4,7 @@
 // @version      2024-11-23
 // @description  try to take over the world!
 // @author       Ton
-// @match        https://lk.contact-centre.ru/hr_manager/db
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=contact-centre.ru
+// @match        https://lk.contact-centre.ru/hr_manager/db*
 // @grant        none
 // ==/UserScript==
 const l = console.log;
